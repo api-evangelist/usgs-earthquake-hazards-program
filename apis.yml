@@ -1,0 +1,32 @@
+aid: usgs-earthquake-hazards-program
+name: USGS Earthquake Hazards Program
+description: "Earthquakes data real-time"
+url: https://earthquake.usgs.gov/fdsnws/event/1/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Science & Math"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Science And Math
+  - Public APIs
+apis:
+  - name: USGS Earthquake Hazards Program
+    description: "Earthquakes data real-time"
+    humanURL: https://earthquake.usgs.gov/fdsnws/event/1/
+    baseURL: https://earthquake.usgs.gov/fdsnws/event/1/
+    tags:
+      - Science And Math
+    properties:
+      - type: Documentation
+        url: https://earthquake.usgs.gov/fdsnws/event/1/
+common:
+  - type: Website
+    url: https://earthquake.usgs.gov/fdsnws/event/1/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
