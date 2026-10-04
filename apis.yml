@@ -33,13 +33,13 @@ x-category: "Science & Math"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Science And Math
   - Public APIs
+  - Science
+  - Seismology
 apis:
   - name: USGS Earthquake Hazards Program
     description: "Earthquakes data real-time"
     humanURL: https://earthquake.usgs.gov/fdsnws/event/1/
-    baseURL: https://earthquake.usgs.gov/fdsnws/event/1/
     tags:
       - Science And Math
     properties:
@@ -55,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Science And Math
