@@ -40,7 +40,8 @@ apis:
   - name: USGS Earthquake Hazards Program
     description: "Earthquakes data real-time"
     humanURL: https://earthquake.usgs.gov/fdsnws/event/1/
-    tags:
+    tags: []
+    tags_raw:
       - Science And Math
     properties:
       - type: Documentation
